@@ -1,0 +1,5 @@
+This repository contains my autounattend.xml file to automatize Windows Pro installation (generated using NTLite software (https://www.ntlite.com) (to allow you to have to click only once to launch Windows setup and then get a coffee/do whatever you want instead of having to click a thousand of times to choose installation settings). It assumes french layout however while not tested replacing `fr-FR` and `fr` values by `en-GB` should assume UK layouts. It also enables hidden super administrator of Windows and automatically launch its session at the end of the installation.
+
+You can find more informations about how to integrate autounattend.xml there https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs
+
+I also included a few registry keys that I use on my machines and linked to what they do in the comments of the reg files.

@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; This will enable highly detailled status messages https://getadmx.com/?Category=Windows_10_2016&Policy=Microsoft.Policies.WindowsLogon::VerboseStatus
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"VerboseStatus"=dword:00000001
